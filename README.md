@@ -1,6 +1,6 @@
-# ASSIGNMENT18_BudgetTrackers
+# Budget Trackers
 
-Add functionality to our existing Budget Tracker application to allow for offline access and functionality.
+Add functionality to our existing Budget Tracker application to allow for ```offline access``` and functionality.
 
 The user will be able to add expenses and deposits to their budget with or without a connection. When entering transactions offline, they should populate the total when brought back online.
 
@@ -29,10 +29,21 @@ Giving users a fast and easy way to track their money is important, but allowing
 -  Heroku
 > https://morning-inlet-42473.herokuapp.com/
 
+## Technologies used
+
+- HTML
+- CSS
+- Node
+- Express
+- Mongoose
+
+## Home page
 
 ![Home Page](./public/img/home.PNG)
 
 This page is for adding and viewing withdrawals and deposits
+
+### Indexed DB
 
 ![IndexedDB](./public/img/IndexedDB.PNG)
 
