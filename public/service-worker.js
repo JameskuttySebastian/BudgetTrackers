@@ -10,15 +10,15 @@ const FILES_TO_CACHE = [
     "/"
 ];
 
-const CACHE_NAME = "static-cache-v1";
-const DATA_CACHE_NAME = "data-cache-v1";
+const CACHE_NAME = "static-cache-v2";
+const DATA_CACHE_NAME = "data-cache-v2";
 
 // install service worker
 self.addEventListener("install", function (evt) {
     console.log('serviceworker installed');
     evt.waitUntil(
         caches.open(CACHE_NAME).then(cache => {
-            // console.log("Service Worker : Your files were pre-cached successfully!");
+            console.log("Service Worker : Your files were pre-cached successfully!");
             return cache.addAll(FILES_TO_CACHE);
         })
     );
