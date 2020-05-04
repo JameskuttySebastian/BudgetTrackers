@@ -1,6 +1,6 @@
 # Budget Trackers
 
-An application to track budget which allows the user to enter deposits and expenses even when the user is offline. When transactions entered offline, the application will populate data and calculate the total when user goes online. This application uses Node, Express, Mongoose and uses webmanifest and service-worker
+An application to track budget which allows the user to enter deposits and expenses even when the user is offline. When transactions entered offline, the application will populate data and calculate the total when user goes online.
 
 
 Offline Functionality:
@@ -36,6 +36,8 @@ Giving users a fast and easy way to track their money is important, but allowing
 - Node
 - Express
 - Mongoose
+- webmanifest 
+- service-worker 
 
 ## Home page
 
