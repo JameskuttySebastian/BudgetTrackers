@@ -84,6 +84,7 @@ function sendTransaction(isAdding) {
   let errorEl = document.querySelector(".form .error");
 
   // validate form
+  //if any of the value is empty then throw error
   if (nameEl.value === "" || amountEl.value === "") {
     errorEl.textContent = "Missing Information";
     return;
@@ -148,6 +149,7 @@ document.querySelector("#add-btn").onclick = function() {
   sendTransaction(true);
 };
 
+// submitting the tranaction
 document.querySelector("#sub-btn").onclick = function() {
   sendTransaction(false);
 };
