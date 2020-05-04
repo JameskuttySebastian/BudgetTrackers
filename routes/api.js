@@ -23,6 +23,7 @@ router.post("/api/transaction/bulk", ({body}, res) => {
     });
 });
 
+// get a single transaction
 router.get("/api/transaction", (req, res) => {
   Transaction.find({}).sort({date: -1})
     .then(dbTransaction => {
